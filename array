@@ -1,0 +1,30 @@
+// Criando o array com 10 elementos
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Usando o loop while
+console.log("Usando while:");
+let i = 0;
+while(i < array.length){
+    console.log(array[i]);
+    i++;
+}
+
+// Usando o loop do-while
+console.log("Usando do-while:");
+i = 0;
+do {
+    console.log(array[i]);
+    i++;
+} while (i < array.length);
+
+// Usando o loop for
+console.log("Usando for:");
+for(i = 0; i < array.length; i++){
+    console.log(array[i]);
+}
+
+// Usando o loop forEach
+console.log("Usando o loop forEach:");
+array.forEach(function(valor) {
+    console.log(valor);
+});
